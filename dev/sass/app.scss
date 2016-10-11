@@ -1,0 +1,14 @@
+$green-1: #16A085;
+$green-2: #1ABC9C;
+@import "fonts";
+body, html{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Raleway", helvetica, sans-serif;
+	overflow: none;
+}
+*{
+	box-sizing: border-box;
+}
+@import 'welcome';
+@import 'buttons';
