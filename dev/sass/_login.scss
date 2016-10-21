@@ -1,0 +1,29 @@
+.login{
+	.white-box{
+		min-width: 30vw;
+		min-height: 50vh;
+		height: auto;
+		padding: 2rem;
+		margin-top: 25vh;
+		left: 35vw;
+		background-color: #FFF;
+		color: #333;
+		text-align: center;
+		z-index: 3;
+		input[type=text]{
+			width: 16rem;
+			color: #333;
+		}
+		input[type=password]{
+			width: 3rem;
+			height: 3rem;
+			color: #333;
+			font-size: 2rem;
+		}
+		.btn{
+			height: 3rem;
+			font-size: 1rem;
+		}
+
+	}
+}

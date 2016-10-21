@@ -13,3 +13,22 @@
 }
 .green-1{background-color: $green-1;}
 .green-2{background-color: $green-2;}
+
+.half{
+	width: 50%;
+	display: inline-block;
+}
+.half{
+	width: 25%;
+	display: inline-block;
+}
+input[type=text], input[type=password]{
+	min-height: 2rem;
+	padding: 1rem;
+	margin: 1px;
+	display: inline-block;
+	border-radius: 3px;
+	color: #333;
+	border: 1px solid #333;
+	outline: none;
+}

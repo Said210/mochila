@@ -12,21 +12,42 @@
 .slide-3{top: 200vh;}
 .slide-4{top: 300vh;}
 .slide-5{top: 400vh;}
+.slide-5{
+	top: 500vh;
+	h4{padding-left: 15vw; padding-top: 10vh !important;}
+}
 
 #text-scene, #image-scene{
 	position: absolute;
 	width: 50vw;
-	height: 105vh;
+	height: 100vh;
+}
+.footer-holder{
+	height: 5rem !important;
+	background-color: transparent;
+}
+.footer{
+	background-color: #333;
+	color: #FFF;
+	text-align: center;
+	height: 5rem !important;
+	padding-top: 1rem;
+	z-index: -101;
+	box-shadow: inset 0px 3px 5px #222;
+	position: fixed !important;
+	bottom: 0px;
+	font-family: helvetica;
 }
 #full-scene{
 	position: absolute;
 	width: 100vw;
-	height: 105vh;
+	height: 100vh;
 	.parallax-window{
 		width: 100%;
-		height: 105vh;
+		height: 100vh;
 		background: transparent;
 		position: absolute;
+		z-index: -10;
 	}
 }
 #text-scene{
@@ -35,12 +56,14 @@
 	background-color: white;
 	text-align: center;
 	color: #333;
-	h2{
+	h2,h3,h4{
 		padding-top: 26vh;
-		font-size: 6vw;
 		letter-spacing: 1.2vw;
 		font-weight: lighter;
 	}
+	h2{font-size: 6vw;}
+	h3{font-size: 5vw;}
+	h4{font-size: 3vw;}
 }
 
 .box, .text-box{
@@ -72,12 +95,12 @@
 	overflow: hidden;
 	.parallax-window{
 		width: 100%;
-		height: 105vh;
+		height: 100vh;
 		background: transparent;
 	}
 		img{position: relative; }
 		.large{
-			height: 105vh;
+			height: 100vh;
 			float: right;
 			min-width: 52vw;
 			margin-top: -1vh;

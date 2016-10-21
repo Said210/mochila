@@ -11,6 +11,13 @@ case "$1" in
         echo "Starting..."
         php -S 0.0.0.0:8000
     ;;
+
+    fuck )
+        ./eulr.sh sass &
+        ./eulr.sh ts  &
+        ./eulr.sh start
+    ;;
+
     commit )
         git add .
         git commit -m $2

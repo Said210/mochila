@@ -1,0 +1,31 @@
+http://localhost:8000/php/controller/user_controller.php?action=login: [Thursday 13th of October 2016 03:24:31 PM: 	 'SELECT * FROM usuario WHERE (email = \'pepepistolas\' OR username = \'pepepistolas\') AND password = \'pepe\''
+------------------------------------
+http://localhost:8000/php/controller/user_controller.php?action=login: [Thursday 13th of October 2016 03:24:31 PM: 	 array (
+)
+------------------------------------
+http://localhost:8000/php/controller/user_controller.php?action=login: [Thursday 13th of October 2016 03:24:31 PM: 	 'id'
+------------------------------------
+http://localhost:8000/php/controller/user_controller.php?action=login: [Thursday 13th of October 2016 03:24:31 PM: 	 'username'
+------------------------------------
+http://localhost:8000/php/controller/user_controller.php?action=login: [Thursday 13th of October 2016 03:24:31 PM: 	 'email'
+------------------------------------
+http://localhost:8000/php/controller/user_controller.php?action=login: [Thursday 13th of October 2016 03:24:31 PM: 	 'password'
+------------------------------------
+http://localhost:8000/php/controller/user_controller.php?action=login: [Thursday 13th of October 2016 03:24:31 PM: 	 'tipo_id'
+------------------------------------
+http://localhost:8000/php/controller/user_controller.php?action=login: [Thursday 13th of October 2016 03:26:03 PM: 	 'SELECT * FROM usuario WHERE (email = \'pepepistolas\' OR username = \'pepepistolas\') AND password = \'pepe\''
+------------------------------------
+http://localhost:8000/php/controller/user_controller.php?action=login: [Thursday 13th of October 2016 03:26:03 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/php/controller/user_controller.php?action=login: [Thursday 13th of October 2016 03:26:03 PM: 	 'id'
+------------------------------------
+http://localhost:8000/php/controller/user_controller.php?action=login: [Thursday 13th of October 2016 03:26:03 PM: 	 'username'
+------------------------------------
+http://localhost:8000/php/controller/user_controller.php?action=login: [Thursday 13th of October 2016 03:26:03 PM: 	 'email'
+------------------------------------
+http://localhost:8000/php/controller/user_controller.php?action=login: [Thursday 13th of October 2016 03:26:03 PM: 	 'password'
+------------------------------------
+http://localhost:8000/php/controller/user_controller.php?action=login: [Thursday 13th of October 2016 03:26:03 PM: 	 'tipo_id'
+------------------------------------
