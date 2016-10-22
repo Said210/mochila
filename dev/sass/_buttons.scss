@@ -7,8 +7,13 @@
 	color: #fff;
 	text-align: center;
 	cursor: pointer;
+	transition: all .3s;
+	box-shadow: 0px 0px 0px rgba(#333, 0);
+	letter-spacing: 1pt;
+	text-transform: uppercase;
 	&:hover{
-		box-shadow: 0px 0px 3px #333;
+		box-shadow: 2px 2px 10px rgba(#333, .6);
+		transition: all .3s;
 	}
 }
 .green-1{background-color: $green-1;}

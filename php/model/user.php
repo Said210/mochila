@@ -1,5 +1,6 @@
 <?php
-    require "oom/src/OOM.php";
+
+    require_once 'oom/OOM.php';
 
     class User extends OOM{
         function __construct(){

@@ -24,7 +24,7 @@
 			break;
 		case 'test':
 			$name = "Juan";
-			render("../../index.php", $name);
+			render("../../login.php", $name);
 			break;
 		default:
 			# code...
