@@ -1,4 +1,4 @@
-<?	
+<!--<?	
 	$salida = [];
 	$user = [];
 	$user["name"] = "Juan";
@@ -13,7 +13,18 @@
     	$actual = str_replace($salida[0][$i], eval("echo ".$salida[1][$i].";"), $actual);
     }
 	echo $actual;
-?>
+?> -->
 <!--
 //$salida[0] => Array de originales
 //$salida[1] => Array de replace-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>THING</title>
+	<script type="text/javascript"></script>
+</head>
+<body>
+	
+</body>
+</html>
