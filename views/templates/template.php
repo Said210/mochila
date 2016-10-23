@@ -8,7 +8,7 @@
 	<script src="/assets/js/jquery.js"></script>
 	<script src="/assets/js/parallax.min.js"></script>
 </head>
-<body>
+<body onload="init()">
 	<aside id="menu_aside"></aside>
 	<div id="content-holder" class="section">
 		<% render($props["view"], $props) %>

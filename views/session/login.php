@@ -13,7 +13,16 @@
 	</div>
 </div>
 <script type="text/javascript">
-	$(".quarter").on("keyup", function(e){
-		console.log(e);
-	});
+	function init () {
+		$(".quarter").on("keyup", function(e){
+			var cur = $(e.currentTarget).attr("id");
+			if (e.keyCode == 8 || e.keyCode == 37) {
+				var i = parseInt(cur.split("_")[1]) - 1;
+			} else{
+				var i = parseInt(cur.split("_")[1]) + 1 ;
+			};
+			var n = "#p_"+i;
+			$(n).focus();
+		});
+	}
 </script>

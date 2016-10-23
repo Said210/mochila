@@ -163,7 +163,9 @@ body, html {
       height: 3rem;
       color: #333;
       font-size: 2rem;
-      margin-left: 4px; }
+      margin-left: 4px;
+      padding: 0px;
+      text-align: center; }
     .login .white-box #first_p {
       margin-left: 8px !important; }
     .login .white-box .btn {
