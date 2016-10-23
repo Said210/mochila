@@ -1,46 +1,53 @@
 [
     {
-        "name": "phroute/phroute",
-        "version": "v2.1.0",
-        "version_normalized": "2.1.0.0",
+        "name": "altorouter/altorouter",
+        "version": "v1.1.0",
+        "version_normalized": "1.1.0.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/mrjgreen/phroute.git",
-            "reference": "dbe2b986f9ee1dd33dc956fcc35d1fa22e8e196c"
+            "url": "https://github.com/dannyvankooten/AltoRouter.git",
+            "reference": "09d9d946c546bae6d22a7654cdb3b825ffda54b4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/mrjgreen/phroute/zipball/dbe2b986f9ee1dd33dc956fcc35d1fa22e8e196c",
-            "reference": "dbe2b986f9ee1dd33dc956fcc35d1fa22e8e196c",
+            "url": "https://api.github.com/repos/dannyvankooten/AltoRouter/zipball/09d9d946c546bae6d22a7654cdb3b825ffda54b4",
+            "reference": "09d9d946c546bae6d22a7654cdb3b825ffda54b4",
             "shasum": ""
         },
         "require": {
-            "php": ">=5.4.0"
+            "php": ">=5.3.0"
         },
-        "require-dev": {
-            "phpunit/phpunit": "*",
-            "satooshi/php-coveralls": "dev-master"
-        },
-        "time": "2015-07-22T20:46:43+00:00",
+        "time": "2014-04-16 09:44:40",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
-            "psr-4": {
-                "Phroute\\Phroute\\": "src/Phroute"
-            }
+            "classmap": [
+                "AltoRouter.php"
+            ]
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
-            "BSD-3-Clause"
+            "MIT"
         ],
         "authors": [
             {
-                "name": "Joe Green",
-                "email": "joe.green.0991@gmail.com"
+                "name": "Danny van Kooten",
+                "email": "dannyvankooten@gmail.com",
+                "homepage": "http://dannyvankooten.com/"
+            },
+            {
+                "name": "Koen Punt",
+                "homepage": "https://github.com/koenpunt"
+            },
+            {
+                "name": "niahoo",
+                "homepage": "https://github.com/niahoo"
             }
         ],
-        "description": "Fast, fully featured restful request router for PHP",
+        "description": "A lightning fast router for PHP",
+        "homepage": "https://github.com/dannyvankooten/AltoRouter",
         "keywords": [
+            "lightweight",
             "router",
             "routing"
         ]

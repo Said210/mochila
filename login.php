@@ -15,7 +15,8 @@
 				<div class="white-box">
 					<% 2+2 %>
 					<h4>Iniciar sesión</h4>
-					<% var_dump($_SESSION['user']) %>
+					<% ($_SESSION["user"]["username"]) %>
+					<% var_dump($props) %>
 					<input type="text"><br>
 					<input type="password" class="quarter" id="first_p" maxlength="1">
 					<input type="password" class="quarter" maxlength="1">

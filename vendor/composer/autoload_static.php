@@ -4,27 +4,16 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit0f0810b2978f708951205ca5a26035ad
+class ComposerStaticInit838b7e0a9eb91302226ad52583a6501c
 {
-    public static $prefixLengthsPsr4 = array (
-        'P' => 
-        array (
-            'Phroute\\Phroute\\' => 16,
-        ),
-    );
-
-    public static $prefixDirsPsr4 = array (
-        'Phroute\\Phroute\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/phroute/phroute/src/Phroute',
-        ),
+    public static $classMap = array (
+        'AltoRouter' => __DIR__ . '/..' . '/altorouter/altorouter/AltoRouter.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit0f0810b2978f708951205ca5a26035ad::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit0f0810b2978f708951205ca5a26035ad::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit838b7e0a9eb91302226ad52583a6501c::$classMap;
 
         }, null, ClassLoader::class);
     }

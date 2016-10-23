@@ -1,5 +1,5 @@
 {
     "require": {
-        "phroute/phroute": "^2.1"
+        "altorouter/altorouter": "1.1.0"
     }
 }

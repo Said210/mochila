@@ -18,12 +18,12 @@
 		
 		case 'login':
 			$new_user = new User();
-			$u = $new_user->where("(email = '".$_POST['email']."' OR username = '".$_POST['email']."') AND password = '".$_POST['password']."'", false);
-			$_SESSION['user'] = serialize($u);
+			$u = $new_user->where("(email = '".$_POST['email']."' OR username = '".$_POST['username']."') AND password = '".$_POST['password']."'", false);
+			$_SESSION['user'] = $u[0];
 			var_export($u);
 			break;
 		case 'test':
-			$name = "Juan";
+			$name = ["name"=>"Juan", "lastname"=>"Zenon"];
 			render("../../login.php", $name);
 			break;
 		default:
