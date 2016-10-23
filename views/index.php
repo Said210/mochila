@@ -8,9 +8,6 @@
 </head>
 <body>
 	<aside id="menu_aside"></aside>
-
-	<!--<% 2+2 %>
-	<% $name %>-->
 	
 	<div id="content-holder" class="section">
 		<div class="slide">
@@ -20,8 +17,12 @@
 			  		Efforless. Anywhere. Anytime.
 			  	</div>
 			  	<br>
-			  	<div class="btn green-1">Registrarse</div>
-			  	<div class="btn green-2">Iniciar</div>
+			  	<a href="/signin">
+			  		<div class="btn green-1">Registrarse</div>
+			  	</a>
+			  	<a href="/login">
+			  		<div class="btn green-2">Iniciar</div>
+			  	</a>
 			</div>
 			<div id="image-scene">
 				<div class="parallax-window" data-parallax="scroll" data-image-src="/assets/images/landing-1.png"></div>

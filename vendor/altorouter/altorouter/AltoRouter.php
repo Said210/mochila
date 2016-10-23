@@ -13,6 +13,7 @@ class AltoRouter {
 		'**' => '.++',
 		''   => '[^/\.]++'
 	);
+	public $before_action = [];
 
 	/**
 	  * Create router in one call from config.

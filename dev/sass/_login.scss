@@ -1,10 +1,16 @@
 .login{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("/assets/images/login-2.png");
 	.white-box{
 		min-width: 25vw;
 		min-height: 50vh;
 		height: auto;
 		padding: 2rem;
-		margin-top: 25vh;
+		margin-top: 10vh;
 		left: 37.5vw;
 		background-color: #FFF;
 		color: #333;

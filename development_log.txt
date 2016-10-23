@@ -1,0 +1,46 @@
+http://localhost:8000/login: [Sunday 23rd of October 2016 08:17:10 AM: 	 'SELECT * FROM usuario WHERE (email = \'\' OR username = \'pepepistolas\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Sunday 23rd of October 2016 08:17:10 AM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 23rd of October 2016 08:19:08 AM: 	 'SELECT * FROM usuario WHERE (email = \'\' OR username = \'pepepistolas\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Sunday 23rd of October 2016 08:19:08 AM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 23rd of October 2016 08:19:40 AM: 	 'SELECT * FROM usuario WHERE (email = \'\' OR username = \'pepepistolas\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Sunday 23rd of October 2016 08:19:40 AM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 23rd of October 2016 08:19:55 AM: 	 'SELECT * FROM usuario WHERE (email = \'\' OR username = \'pepepistolas\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Sunday 23rd of October 2016 08:19:55 AM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 23rd of October 2016 08:22:32 AM: 	 'SELECT * FROM usuario WHERE (email = \'pepepistolas\' OR username = \'pepepistolas\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Sunday 23rd of October 2016 08:22:32 AM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 23rd of October 2016 08:22:48 AM: 	 'SELECT * FROM usuario WHERE (email = \'pepepistolas\' OR username = \'pepepistolas\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Sunday 23rd of October 2016 08:22:48 AM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 23rd of October 2016 08:22:48 AM: 	 'id'
+------------------------------------
+http://localhost:8000/login: [Sunday 23rd of October 2016 08:22:48 AM: 	 'username'
+------------------------------------
+http://localhost:8000/login: [Sunday 23rd of October 2016 08:22:48 AM: 	 'email'
+------------------------------------
+http://localhost:8000/login: [Sunday 23rd of October 2016 08:22:48 AM: 	 'password'
+------------------------------------
+http://localhost:8000/login: [Sunday 23rd of October 2016 08:22:48 AM: 	 'tipo_id'
+------------------------------------
