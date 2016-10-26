@@ -44,3 +44,142 @@ http://localhost:8000/login: [Sunday 23rd of October 2016 08:22:48 AM: 	 'passwo
 ------------------------------------
 http://localhost:8000/login: [Sunday 23rd of October 2016 08:22:48 AM: 	 'tipo_id'
 ------------------------------------
+http://localhost:8000/login: [Tuesday 25th of October 2016 07:44:01 PM: 	 'SELECT * FROM usuario WHERE (email = \'diego.210@hotmail.es\' OR username = \'diego.210@hotmail.es\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Tuesday 25th of October 2016 07:44:01 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Tuesday 25th of October 2016 07:45:21 PM: 	 'SELECT * FROM usuario WHERE (email = \'pepepistolas\' OR username = \'pepepistolas\') AND password = \'pepe\''
+------------------------------------
+http://localhost:8000/login: [Tuesday 25th of October 2016 07:45:21 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Tuesday 25th of October 2016 07:46:45 PM: 	 'SELECT * FROM usuario WHERE (email = \'pepepistolas\' OR username = \'pepepistolas\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Tuesday 25th of October 2016 07:46:45 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/register: [Wednesday 26th of October 2016 12:21:09 AM: 	 'INSERT INTO usuario(username,email) VALUES ("the_Saideitor_171","diego.210@hotmail.es");'
+------------------------------------
+
+'sql'
+http://localhost:8000/register: [Wednesday 26th of October 2016 12:22:29 AM: 	 'INSERT INTO usuario(username,email) VALUES ("the_Saideitor_171","diego.210@hotmail.es");'
+------------------------------------
+
+'sql'
+http://localhost:8000/register: [Wednesday 26th of October 2016 12:22:29 AM: 	 array (
+  0 => 
+  array (
+    'id' => '2',
+    'username' => 'the_Saideitor_171',
+    'email' => 'diego.210@hotmail.es',
+    'password' => NULL,
+    'tipo_id' => NULL,
+    'profile_pic' => '/assets/img/default.png',
+    'fb_id' => NULL,
+    'tw_id' => NULL,
+  ),
+  1 => 
+  array (
+    'id' => '3',
+    'username' => 'the_Saideitor_171',
+    'email' => 'diego.210@hotmail.es',
+    'password' => NULL,
+    'tipo_id' => NULL,
+    'profile_pic' => '/assets/img/default.png',
+    'fb_id' => NULL,
+    'tw_id' => NULL,
+  ),
+)
+------------------------------------
+http://localhost:8000/register: [Wednesday 26th of October 2016 12:25:46 AM: 	 'INSERT INTO usuario(username,email,fb_id,tipo_id,password) VALUES ("the_Saideitor_122","diego.210@hotmail.es",10201496462973922,1,0210);'
+------------------------------------
+
+'sql'
+http://localhost:8000/register: [Wednesday 26th of October 2016 12:25:46 AM: 	 array (
+  0 => 
+  array (
+    'id' => '2',
+    'username' => 'the_Saideitor_171',
+    'email' => 'diego.210@hotmail.es',
+    'password' => NULL,
+    'tipo_id' => NULL,
+    'profile_pic' => '/assets/img/default.png',
+    'fb_id' => NULL,
+    'tw_id' => NULL,
+  ),
+  1 => 
+  array (
+    'id' => '3',
+    'username' => 'the_Saideitor_171',
+    'email' => 'diego.210@hotmail.es',
+    'password' => NULL,
+    'tipo_id' => NULL,
+    'profile_pic' => '/assets/img/default.png',
+    'fb_id' => NULL,
+    'tw_id' => NULL,
+  ),
+  2 => 
+  array (
+    'id' => '4',
+    'username' => 'the_Saideitor_122',
+    'email' => 'diego.210@hotmail.es',
+    'password' => '210',
+    'tipo_id' => '1',
+    'profile_pic' => '/assets/img/default.png',
+    'fb_id' => '10201496462973922',
+    'tw_id' => NULL,
+  ),
+)
+------------------------------------
+http://localhost:8000/login: [Wednesday 26th of October 2016 12:41:49 AM: 	 'SELECT * FROM usuario WHERE (email = \'pepe\' OR username = \'pepe\') AND password = \'1233\''
+------------------------------------
+http://localhost:8000/login: [Wednesday 26th of October 2016 12:41:49 AM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Wednesday 26th of October 2016 12:45:45 AM: 	 'SELECT * FROM usuario WHERE (email = \'pepe\' OR username = \'pepe\') AND password = \'1233\''
+------------------------------------
+http://localhost:8000/login: [Wednesday 26th of October 2016 12:45:45 AM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Wednesday 26th of October 2016 12:46:02 AM: 	 'SELECT * FROM usuario WHERE (email = \'pepe\' OR username = \'pepe\') AND password = \'1233\''
+------------------------------------
+http://localhost:8000/login: [Wednesday 26th of October 2016 12:46:02 AM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Wednesday 26th of October 2016 12:49:13 AM: 	 'SELECT * FROM usuario WHERE (email = \'pepe\' OR username = \'pepe\') AND password = \'1234\''
+------------------------------------
+http://localhost:8000/login: [Wednesday 26th of October 2016 12:49:14 AM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Wednesday 26th of October 2016 12:50:55 AM: 	 'SELECT * FROM usuario WHERE (email = \'pepe\' OR username = \'pepe\') AND password = \'1234\''
+------------------------------------
+http://localhost:8000/login: [Wednesday 26th of October 2016 12:50:55 AM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Wednesday 26th of October 2016 12:51:50 AM: 	 'SELECT * FROM usuario WHERE (email = \'the_Saideitor_122\' OR username = \'the_Saideitor_122\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Wednesday 26th of October 2016 12:51:50 AM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Wednesday 26th of October 2016 12:51:52 AM: 	 'SELECT * FROM usuario WHERE (email = \'the_Saideitor_122\' OR username = \'the_Saideitor_122\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Wednesday 26th of October 2016 12:51:52 AM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Wednesday 26th of October 2016 12:52:50 AM: 	 'SELECT * FROM usuario WHERE (email = \'the_Saideitor_122\' OR username = \'the_Saideitor_122\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Wednesday 26th of October 2016 12:52:50 AM: 	 array (
+  0 => 'password',
+)
+------------------------------------

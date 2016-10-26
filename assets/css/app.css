@@ -136,7 +136,12 @@ body, html {
   top: 0px;
   width: 100vw;
   height: 100vh;
-  background-image: url("/assets/images/login-2.png"); }
+  background-image: url("/assets/images/login-2.png");
+  background-size: cover;
+  background-repeat: none; }
+  .login label {
+    font-size: 1.2rem;
+    font-weight: lighter; }
   .login .white-box {
     min-width: 25vw;
     min-height: 50vh;
@@ -180,6 +185,20 @@ body, html {
       .login .white-box a:hover {
         text-decoration: underline; }
 
+.signin input[type=text], .signin input[type=password], .signin input[type=email] {
+  color: #333;
+  font-size: 1rem !important;
+  text-align: left !important;
+  padding-left: 1rem !important; }
+.signin #fb_signin {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all .3s; }
+  .signin #fb_signin:hover {
+    box-shadow: 0px 0px 4px #666; }
+
 .btn {
   min-width: 10rem;
   min-height: 2rem;
@@ -207,11 +226,14 @@ body, html {
   width: 50%;
   display: inline-block; }
 
-.half {
+.quarter {
   width: 25%;
   display: inline-block; }
 
-input[type=text], input[type=password] {
+.full {
+  width: 100% !important; }
+
+input[type=text], input[type=password], input[type=email] {
   min-height: 2rem;
   padding: 1rem;
   margin: 1px;

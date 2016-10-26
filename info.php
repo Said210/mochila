@@ -1,25 +1,12 @@
 <?	
-	$salida = [];
-	$user = [];
-	$user["name"] = "Juan";
-	$message = "polisia";
-
-	function render($file, $props=null){
-		$actual = file_get_contents($file);
-		$processed = [];
-		preg_match_all("/\<\%(.+)\%\>/",
-	    $actual,
-	    $salida,
-	    PREG_PATTERN_ORDER);
-	    for ($i=0; $i < count($salida[0]); $i++) { 
-	    	array_push($processed, eval("return ".$salida[1][$i].";"));
-	    }
-	    for ($i=0; $i < count($salida[0]); $i++) { 
-	    	//echo $salida[0][$i];
-	    	//$actual = str_replace($salida[0][$i], eval("return ".$salida[1][$i].";"), $actual);
-	    	$actual = str_replace($salida[0][$i], $processed[$i] , $actual);
-	    }
-		echo $actual;
-	}
-	
+	require_once('php/model/user.php');
+	$data = $_POST["user"];
+	var_dump($data);
+	$new_user = new User();
+	$new_user->attr["username"] = $data["username"];;
+	$new_user->attr["email"] = $data["email"];
+	$new_user->attr["fb_id"] = $data["fb_id"];
+	$new_user->attr["tipo_id"] = 1;
+	$new_user->attr["password"] = $data["password"];
+	var_dump($new_user);
 ?>

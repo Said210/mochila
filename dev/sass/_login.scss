@@ -5,6 +5,12 @@
 	width: 100vw;
 	height: 100vh;
 	background-image: url("/assets/images/login-2.png");
+	background-size: cover;
+	background-repeat: none;
+	label{
+		font-size: 1.2rem;
+		font-weight: lighter;
+	}
 	.white-box{
 		min-width: 25vw;
 		min-height: 50vh;
@@ -55,5 +61,23 @@
 			}
 		}
 
+	}
+}
+.signin{
+	input[type=text], input[type=password], input[type=email]{
+		color: #333;
+		font-size: 1rem !important;
+		text-align: left !important;
+		padding-left: 1rem !important;
+	}
+	#fb_signin{
+		width: 2rem;
+		height: 2rem;
+		border-radius: 3px;
+		cursor: pointer;
+		transition: all .3s;
+		&:hover{
+			box-shadow: 0px 0px 4px #666;
+		}
 	}
 }

@@ -2,6 +2,7 @@
 	
 	require_once('php/model/user.php');
 	require_once('helpers.php');
+	require_once('errors.php');
 	session_start();
 	/**
 	* UserController class
@@ -10,11 +11,13 @@
 		public static function register($param_user = null) {
 			$data = ($param_user == null) ? $_POST["user"] : $param_user;
 			$new_user = new User();
-			$new_user["username"] = $data["username"];;
-			$new_user["email"] = $data["email"];
-			$new_user["password"] = $data["password"];
-			$new_user["tipo_id"] = 1;
+			$new_user->attr["username"] = $data["username"];;
+			$new_user->attr["email"] = $data["email"];
+			$new_user->attr["fb_id"] = $data["fb_id"];
+			$new_user->attr["tipo_id"] = 1;
+			$new_user->attr["password"] = $data["password"];
 			$new_user->save();
+			echo json_encode($new_user->find_by("email", $data["email"], false));
 		}
 
 		public static function login($param_user = null){
@@ -37,6 +40,7 @@
 				echo json_encode($u);
 				return $u;
 			}else{
+				echo json_encode(Errors::login("access_denied"));
 				return null;
 			}
 		}

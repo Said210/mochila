@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.6.26, for osx10.10 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.20, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: mocla
 -- ------------------------------------------------------
--- Server version	5.6.26
+-- Server version	5.6.20
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -533,10 +533,13 @@ CREATE TABLE `usuario` (
   `email` varchar(100) DEFAULT NULL COMMENT '	',
   `password` varchar(255) DEFAULT NULL COMMENT '					',
   `tipo_id` int(11) DEFAULT NULL,
+  `profile_pic` varchar(200) DEFAULT '/assets/img/default.png',
+  `fb_id` varchar(50) DEFAULT NULL,
+  `tw_id` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `usario_tiene_tipo_idx` (`tipo_id`),
   CONSTRAINT `usario_tiene_tipo` FOREIGN KEY (`tipo_id`) REFERENCES `tipo` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -545,7 +548,7 @@ CREATE TABLE `usuario` (
 
 LOCK TABLES `usuario` WRITE;
 /*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
-INSERT INTO `usuario` VALUES (1,'pepepistolas','pepe@pistolas.com','pepe',1);
+INSERT INTO `usuario` VALUES (1,'pepepistolas','pepe@pistolas.com','0210',1,'/assets/img/default.png',NULL,NULL),(4,'the_Saideitor_122','diego.210@hotmail.es','0210',1,'/assets/img/default.png','10201496462973922',NULL);
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -640,4 +643,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-10-22 10:58:47
+-- Dump completed on 2016-10-26  0:53:38

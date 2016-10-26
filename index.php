@@ -23,7 +23,11 @@ $router->map( 'GET', '/login', function() {
 	if (isset($_SESSION["user"])) {
 		header("Location: /");
 	}else{
-		render("views/templates/template.php", ["view" => 'views/session/login.php']);
+		$props = [
+			"view" => 'views/session/login.php',
+			'title' => "Login @ Mocla"
+			];
+		require "views/templates/template.php";
 	}
 }, 'login');
 
@@ -35,7 +39,24 @@ $router->map( 'DELETE|GET', '/logout', function() {
 	UserController::logout();
 }, 'logout');
 
+/*
+* Sign in
+*/
+$router->map( 'GET', '/signin', function() {
+	if (isset($_SESSION["user"])) {
+		header("Location: /");
+	}else{
+		$props = [
+			"view" => 'views/session/register.php',
+			'title' => "Signin @ Mocla"
+			];
+		require "views/templates/template.php";
+	}
+}, 'Sign In');
 
+$router->map( 'POST', '/register', function() {
+	UserController::register();
+}, 'register');
 
 
 $match = $router->match();  

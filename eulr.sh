@@ -5,7 +5,7 @@ case "$1" in
     ;;
     ts )
         echo "Typescript compiler starting..."
-        tsc -w --outFile assets/js/app.js dev/ts/all --module commonjs
+        tsc -w --outFile assets/js/app.js dev/ts/app --module commonjs
     ;;
     start )
         echo "Starting..."

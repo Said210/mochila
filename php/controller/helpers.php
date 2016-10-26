@@ -13,7 +13,7 @@
 	function render($file, $props=null){
 		$actual = file_get_contents($file);
 		$processed = [];
-		preg_match_all("/\<\%(.+)\%\>/",
+		preg_match_all("/\<\%(\n+|.+)\%\>/",
 	    $actual,
 	    $salida,
 	    PREG_PATTERN_ORDER);
