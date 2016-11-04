@@ -64,6 +64,16 @@
 	}
 }
 .signin{
+	// width: 96vw;
+	// height: 96vh;
+	// left: 2vw;
+	// top: 2vh;
+	.white-box{
+		margin-top: 10vh;
+		height: 80vh;
+		overflow: scroll;
+	}
+
 	input[type=text], input[type=password], input[type=email]{
 		color: #333;
 		font-size: 1rem !important;

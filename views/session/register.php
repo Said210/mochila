@@ -1,15 +1,10 @@
 <div class="login signin">
 	<div class="white-box">
 	<h4>Registrate</h4>
-		<label>Email: </label><br>
 		<input type="email" class="full" placeholder="Email" id="email">
 		<br>
-		<label>Username</label><br>
 		<input type="text" class="full" placeholder="Username" id="username">
 		<br>
-		<label>
-			Contraseña: (Ingresa solo 4 caracteres). 
-		</label><br>
 		<input type="password" class="full" placeholder="Pass" maxlength="4" id="password">
 		<br>
 		<input type="hidden" class="hidden" id="fb_id">

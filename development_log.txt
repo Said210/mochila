@@ -183,3 +183,31 @@ http://localhost:8000/login: [Wednesday 26th of October 2016 12:52:50 AM: 	 arra
   0 => 'password',
 )
 ------------------------------------
+http://localhost:8000/login: [Thursday 27th of October 2016 03:18:29 PM: 	 'SELECT * FROM usuario WHERE (email = \'diego.210@hotmail.es\' OR username = \'diego.210@hotmail.es\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Thursday 27th of October 2016 03:18:29 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Thursday 27th of October 2016 03:18:45 PM: 	 'SELECT * FROM usuario WHERE (email = \'dsaid0210\' OR username = \'dsaid0210\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Thursday 27th of October 2016 03:18:45 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Thursday 27th of October 2016 03:19:18 PM: 	 'SELECT * FROM usuario WHERE (email = \'pepepistolas\' OR username = \'pepepistolas\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Thursday 27th of October 2016 03:19:18 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Thursday 27th of October 2016 03:19:18 PM: 	 'id'
+------------------------------------
+http://localhost:8000/login: [Thursday 27th of October 2016 03:19:18 PM: 	 'username'
+------------------------------------
+http://localhost:8000/login: [Thursday 27th of October 2016 03:19:18 PM: 	 'email'
+------------------------------------
+http://localhost:8000/login: [Thursday 27th of October 2016 03:19:18 PM: 	 'password'
+------------------------------------
+http://localhost:8000/login: [Thursday 27th of October 2016 03:19:18 PM: 	 'tipo_id'
+------------------------------------
