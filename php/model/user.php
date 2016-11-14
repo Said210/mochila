@@ -7,10 +7,6 @@
             $this->model_name = "usuario";
             $this->private = ["password"];
         }
-
-        function alo(){
-        	echo var_export($this);
-        }
     }
     $User = new User(); // Optional, but cool.
 ?>

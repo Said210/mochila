@@ -798,3 +798,88 @@ http://localhost:8000/login: [Sunday 13th of November 2016 09:37:16 PM: 	 'INSER
 ------------------------------------
 
 'sql'
+http://localhost:8000/login: [Monday 14th of November 2016 08:49:47 AM: 	 'SELECT * FROM usuario WHERE (email = \'a\' OR username = \'a\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Monday 14th of November 2016 08:49:47 AM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Monday 14th of November 2016 08:49:47 AM: 	 'id'
+------------------------------------
+http://localhost:8000/login: [Monday 14th of November 2016 08:49:47 AM: 	 'username'
+------------------------------------
+http://localhost:8000/login: [Monday 14th of November 2016 08:49:47 AM: 	 'email'
+------------------------------------
+http://localhost:8000/login: [Monday 14th of November 2016 08:49:47 AM: 	 'password'
+------------------------------------
+http://localhost:8000/login: [Monday 14th of November 2016 08:49:47 AM: 	 'tipo_id'
+------------------------------------
+http://localhost:8000/login: [Monday 14th of November 2016 08:49:47 AM: 	 'fb_id'
+------------------------------------
+http://localhost:8000/login: [Monday 14th of November 2016 08:49:48 AM: 	 'INSERT INTO session(id,uid,ip,data) VALUES ("dwLGPH1u6UxcyBP9HB6Q",2,"127.0.0.1","<b>ip</b>:127.0.0.1<br><b>bogon</b>:1<br><b>From</b>:Chrome 54 - Macintosh.");'
+------------------------------------
+
+'sql'
+http://localhost:8000/info.php: [Monday 14th of November 2016 09:01:54 AM: 	 array (
+  0 => 
+  OOM::__set_state(array(
+     'model_name' => '',
+     'db' => 'mocla',
+     'before_save' => NULL,
+     'private' => 
+    array (
+    ),
+     'attr' => 
+    array (
+      'id' => '2',
+      'username' => 'a',
+      'email' => 'diego.210@hotmail.es',
+      'password' => '0210',
+      'tipo_id' => '1',
+      'fb_id' => '10201496462973922',
+    ),
+  )),
+)
+------------------------------------
+http://localhost:8000/info.php: [Monday 14th of November 2016 09:02:08 AM: 	 array (
+  0 => 
+  OOM::__set_state(array(
+     'model_name' => '',
+     'db' => 'mocla',
+     'before_save' => NULL,
+     'private' => 
+    array (
+    ),
+     'attr' => 
+    array (
+      'id' => '2',
+      'username' => 'a',
+      'email' => 'diego.210@hotmail.es',
+      'password' => '0210',
+      'tipo_id' => '1',
+      'fb_id' => '10201496462973922',
+    ),
+  )),
+)
+------------------------------------
+http://localhost:8000/info.php: [Monday 14th of November 2016 09:02:16 AM: 	 array (
+  0 => 
+  OOM::__set_state(array(
+     'model_name' => '',
+     'db' => 'mocla',
+     'before_save' => NULL,
+     'private' => 
+    array (
+    ),
+     'attr' => 
+    array (
+      'id' => '2',
+      'username' => 'a',
+      'email' => 'diego.210@hotmail.es',
+      'password' => '0210',
+      'tipo_id' => '1',
+      'fb_id' => '10201496462973922',
+    ),
+  )),
+)
+------------------------------------

@@ -32,7 +32,7 @@ $router->map( 'GET', '/login', function() {
 }, 'login');
 
 $router->map( 'POST', '/login', function() {
-	UserController::login();
+	echo UserController::login();
 }, 'login_POST');
 
 $router->map( 'DELETE|GET', '/logout', function() {

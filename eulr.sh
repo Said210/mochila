@@ -30,11 +30,11 @@ case "$1" in
 
     class $2 extends OOM{
         function __construct(){
-            $this->model_name = $2;
-            $this->private = [];
+            \$this->model_name = $2;
+            \$this->private = [];
         }
     }
-    $2 = new $2(); // Optional, but cool.
+    \$$2 = new $2(); // Optional, but cool.
     ?>" > php/model/$2.php
 
         echo "<?php
@@ -45,7 +45,7 @@ case "$1" in
     /**
     * $2Controller class
     */
-    class $2Controller{}?>" > php/controller/$2.php
+    class $2Controller{}?>" > php/controller/$2_controller.php
 
         mkdir views/$2
 

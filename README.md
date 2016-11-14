@@ -43,5 +43,10 @@ _Para mas detalles de rutas busca altorouter_ (http://bfy.tw/8ZkR)
 
 Y ya, es todo lo que debes saber, casi.
 
-
+### Hum... no, aún no capto.
+Bueno, Timy, igual podrías usar 
+```bash
+./eulr.sh g [nombre del modelo a crear]
+```
+eso ciertamente creará el modelo, un controlador y una carpeta en views con ese nombre.
 ## Make mocla great again

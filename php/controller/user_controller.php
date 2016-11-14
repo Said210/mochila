@@ -36,14 +36,15 @@
 		}
 
 		public function authorize_with_session_id($session_id = ""){
+			$session_id = ($session_id == "") ? $_POST["session_id"] : $session_id;
 			$session = OOM::factory_f("session"); // Create a new session oom instace
 			$current_session = $session->find($session_id);
 			if (isset($current_session)) {
-				$u = $User->find($session->attr["uid"]);
+				$u = $current_session->fetch("uid","usuario");
 				$u->attr["session"] = $current_session->attr;
 				return json_encode($u);
 			}else{
-				// NOPE
+				return json_encode(Errors::login("access_denied"));
 			}
 		}
 
@@ -66,11 +67,9 @@
 				$session = UserController::new_session($u[0], $_POST);
 				$u[0]->attr["session"] = $session->attr;
 				$_SESSION['user'] = $u[0];
-				echo json_encode($u[0]->attr);
-				return $u;
+				return json_encode($u[0]->attr);
 			}else{
-				echo json_encode(Errors::login("access_denied"));
-				return null;
+				return json_encode(Errors::login("access_denied"));
 			}
 		}
 
