@@ -30,7 +30,7 @@ case "$1" in
 
     class $2 extends OOM{
         function __construct(){
-            \$this->model_name = $2;
+            \$this->model_name = \"$2\";
             \$this->private = [];
         }
     }
