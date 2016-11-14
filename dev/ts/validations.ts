@@ -12,7 +12,7 @@ function validate_email( message:string ):boolean {
 }
 
 function validate( elements ):boolean{
-	console.log(elements);
+	//console.log(elements);
 	var flag = true;
 	for (var i = 0; i < elements.length; i++) {
 		var tmp = elements[i][1](elements[i][0]);

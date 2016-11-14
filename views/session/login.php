@@ -28,6 +28,10 @@
 			var n = "#p_"+i;
 			$(n).focus();
 		});
+
+		if (u = get_query_variable("username")) { // If username is passed via URL
+			$("#uid").val(u); // uid = username
+		}
 	};
 
 	function validate_login(){
@@ -40,10 +44,14 @@
 		];
 		var pw = $("#p_1").val()+$("#p_2").val()+$("#p_3").val()+$("#p_4").val();
 		if (validate(elements)) {
-			$.post("/login", {uid: $("#uid").val(), password: pw}, function(response){
+			$.post("/login", {
+				uid: $("#uid").val(),
+				password: pw,
+				device: navigator.sayswho() + " - " + navigator.device()
+			}, function(response){
 				var data = JSON.parse(response);
-				console.log(data, data.id, typeof(data.id))
 				if (typeof(data.id) != "undefined") {
+					Cookies.set('session', JSON.stringify({id: data.session.id, uid: data.session.uid}));
 					var n = noty({
 					    text: 'Pronto cargará tu cuenta, espera, '+data.username,
 					    type: 'success',
@@ -53,6 +61,7 @@
 					        speed: 500 // unavailable - no need
 					    }
 					});
+					//window.location.href = "/me";
 				}else{
 					var n = noty({
 					    text: 'Algo no esta bien, intenta de nuevo',
@@ -64,7 +73,7 @@
 					    }
 					});
 				}
-			})
+			});
 		}else{
 			console.log(";C");
 		}

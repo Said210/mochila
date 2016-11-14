@@ -1,5 +1,5 @@
 <?
-require('helpers.php');
-require('user_controller.php');
+require_once('helpers.php');
+require_once('user_controller.php');
 
 ?>

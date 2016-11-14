@@ -8,6 +8,9 @@
             $this->private = ["password"];
         }
 
+        function alo(){
+        	echo var_export($this);
+        }
     }
-    $u = new User(); // Optional, but cool.
+    $User = new User(); // Optional, but cool.
 ?>

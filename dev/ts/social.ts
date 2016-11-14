@@ -30,7 +30,7 @@ hello.on('auth.login', function(auth){
   });
 })
 
-function get_data(callback) {
+function get_facebook_data(callback) {
 	hello( 'facebook' ).api( '/me' ).then( function(r){
   		callback(r); 
 	});

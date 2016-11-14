@@ -211,3 +211,590 @@ http://localhost:8000/login: [Thursday 27th of October 2016 03:19:18 PM: 	 'pass
 ------------------------------------
 http://localhost:8000/login: [Thursday 27th of October 2016 03:19:18 PM: 	 'tipo_id'
 ------------------------------------
+http://localhost:8000/register: [Thursday 10th of November 2016 08:54:24 AM: 	 'INSERT INTO usuario(username,email,fb_id,tipo_id,password) VALUES ("the_Saideitor_144","diego.210@hotmail.es",10201496462973922,1,0210);'
+------------------------------------
+
+'sql'
+http://localhost:8000/register: [Thursday 10th of November 2016 08:54:24 AM: 	 array (
+)
+------------------------------------
+http://localhost:8000/register: [Thursday 10th of November 2016 08:54:29 AM: 	 'INSERT INTO usuario(username,email,fb_id,tipo_id,password) VALUES ("the_Saideitor_144","diego.210@hotmail.es",10201496462973922,1,0210);'
+------------------------------------
+
+'sql'
+http://localhost:8000/register: [Thursday 10th of November 2016 08:54:29 AM: 	 array (
+)
+------------------------------------
+http://localhost:8000/register: [Thursday 10th of November 2016 08:55:16 AM: 	 'INSERT INTO usuario(username,email,fb_id,tipo_id,password) VALUES ("the_Saideitor_154","diego.210@hotmail.es",10201496462973922,1,0210);'
+------------------------------------
+
+'sql'
+http://localhost:8000/register: [Thursday 10th of November 2016 08:55:16 AM: 	 array (
+)
+------------------------------------
+http://localhost:8000/register: [Thursday 10th of November 2016 08:55:50 AM: 	 'INSERT INTO usuario(username,email,fb_id,tipo_id,password) VALUES ("the_Saideitor_154","diego.210@hotmail.es",10201496462973922,1,0210);'
+------------------------------------
+
+'sql'
+http://localhost:8000/register: [Thursday 10th of November 2016 08:55:50 AM: 	 array (
+)
+------------------------------------
+http://localhost:8000/register: [Thursday 10th of November 2016 08:57:44 AM: 	 'INSERT INTO usuario(username,email,fb_id,tipo_id,password) VALUES ("the_Saideitor_154","diego.210@hotmail.es",10201496462973922,1,0210);'
+------------------------------------
+
+'sql'
+http://localhost:8000/register: [Thursday 10th of November 2016 08:57:44 AM: 	 array (
+)
+------------------------------------
+http://localhost:8000/register: [Thursday 10th of November 2016 08:57:51 AM: 	 'INSERT INTO usuario(username,email,fb_id,tipo_id,password) VALUES ("the_Saideitor_154","diego.210@hotmail.es",10201496462973922,1,0210);'
+------------------------------------
+
+'sql'
+http://localhost:8000/register: [Thursday 10th of November 2016 08:57:51 AM: 	 array (
+)
+------------------------------------
+http://localhost:8000/register: [Thursday 10th of November 2016 08:58:02 AM: 	 'INSERT INTO usuario(username,email,fb_id,tipo_id,password) VALUES ("the_Saideitor_154","diego.210@hotmail.es",10201496462973922,1,0210);'
+------------------------------------
+
+'sql'
+http://localhost:8000/register: [Thursday 10th of November 2016 08:58:02 AM: 	 array (
+)
+------------------------------------
+http://localhost:8000/register: [Thursday 10th of November 2016 08:58:34 AM: 	 'INSERT INTO usuario(username,email,fb_id,tipo_id,password) VALUES ("the_Saideitor_154","diego.210@hotmail.es",10201496462973922,1,0210);'
+------------------------------------
+
+'sql'
+http://localhost:8000/register: [Thursday 10th of November 2016 08:58:34 AM: 	 array (
+)
+------------------------------------
+http://localhost:8000/register: [Thursday 10th of November 2016 08:59:10 AM: 	 'INSERT INTO usuario(username,email,fb_id,tipo_id,password) VALUES ("the_Saideitor_154","diego.210@hotmail.es",10201496462973922,1,0210);'
+------------------------------------
+
+'sql'
+http://localhost:8000/register: [Thursday 10th of November 2016 08:59:10 AM: 	 array (
+)
+------------------------------------
+http://localhost:8000/register: [Thursday 10th of November 2016 09:01:37 AM: 	 'INSERT INTO usuario(username,email,fb_id,tipo_id,password) VALUES ("the_Saideitor_154","diego.210@hotmail.es",10201496462973922,1,0210);'
+------------------------------------
+
+'sql'
+http://localhost:8000/register: [Thursday 10th of November 2016 09:01:37 AM: 	 array (
+  0 => 
+  array (
+    'id' => '2',
+    'username' => 'the_Saideitor_154',
+    'email' => 'diego.210@hotmail.es',
+    'password' => '210',
+    'tipo_id' => '1',
+    'fb_id' => '10201496462973922',
+  ),
+)
+------------------------------------
+http://localhost:8000/login: [Thursday 10th of November 2016 09:03:33 AM: 	 'SELECT * FROM usuario WHERE (email = \'the_saideitor_154\' OR username = \'the_saideitor_154\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Thursday 10th of November 2016 09:03:33 AM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Thursday 10th of November 2016 09:04:17 AM: 	 'SELECT * FROM usuario WHERE (email = \'the_saideitor_154\' OR username = \'the_saideitor_154\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Thursday 10th of November 2016 09:04:17 AM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Thursday 10th of November 2016 09:04:17 AM: 	 'id'
+------------------------------------
+http://localhost:8000/login: [Thursday 10th of November 2016 09:04:17 AM: 	 'username'
+------------------------------------
+http://localhost:8000/login: [Thursday 10th of November 2016 09:04:17 AM: 	 'email'
+------------------------------------
+http://localhost:8000/login: [Thursday 10th of November 2016 09:04:17 AM: 	 'password'
+------------------------------------
+http://localhost:8000/login: [Thursday 10th of November 2016 09:04:17 AM: 	 'tipo_id'
+------------------------------------
+http://localhost:8000/login: [Thursday 10th of November 2016 09:04:17 AM: 	 'fb_id'
+------------------------------------
+http://localhost:8000/register: [Thursday 10th of November 2016 09:06:49 AM: 	 'INSERT INTO usuario(username,email,fb_id,tipo_id,password) VALUES ("el_beto","humbertowoody@gmail.com",10201496462973922,1,1234);'
+------------------------------------
+
+'sql'
+http://localhost:8000/register: [Thursday 10th of November 2016 09:06:49 AM: 	 array (
+  0 => 
+  array (
+    'id' => '3',
+    'username' => 'el_beto',
+    'email' => 'humbertowoody@gmail.com',
+    'password' => '1234',
+    'tipo_id' => '1',
+    'fb_id' => '10201496462973922',
+  ),
+)
+------------------------------------
+http://localhost:8000/register: [Thursday 10th of November 2016 09:07:57 AM: 	 'INSERT INTO usuario(username,email,fb_id,tipo_id,password) VALUES ("el_beto","humbertowoody@gmail.com",10201496462973922,1,1234);'
+------------------------------------
+
+'sql'
+http://localhost:8000/register: [Thursday 10th of November 2016 09:07:57 AM: 	 array (
+  0 => 
+  array (
+    'id' => '4',
+    'username' => 'el_beto',
+    'email' => 'humbertowoody@gmail.com',
+    'password' => '1234',
+    'tipo_id' => '1',
+    'fb_id' => '10201496462973922',
+  ),
+)
+------------------------------------
+http://localhost:8000/register: [Thursday 10th of November 2016 09:12:42 AM: 	 'INSERT INTO usuario(username,email) VALUES ("el_beto","humberto@gmail.com");'
+------------------------------------
+
+'sql'
+http://localhost:8000/register: [Thursday 10th of November 2016 09:12:42 AM: 	 array (
+  0 => 
+  array (
+    'id' => '5',
+    'username' => 'el_beto',
+    'email' => 'humberto@gmail.com',
+    'password' => NULL,
+    'tipo_id' => NULL,
+    'fb_id' => '""',
+  ),
+)
+------------------------------------
+http://localhost:8000/register: [Thursday 10th of November 2016 09:14:01 AM: 	 'INSERT INTO usuario(username,email,tipo_id,password) VALUES ("el_beto","humberto@gmail.com",1,1234);'
+------------------------------------
+
+'sql'
+http://localhost:8000/register: [Thursday 10th of November 2016 09:14:01 AM: 	 array (
+  0 => 
+  array (
+    'id' => '6',
+    'username' => 'el_beto',
+    'email' => 'humberto@gmail.com',
+    'password' => '1234',
+    'tipo_id' => '1',
+    'fb_id' => '""',
+  ),
+)
+------------------------------------
+http://localhost:8000/login: [Thursday 10th of November 2016 09:24:37 AM: 	 'SELECT * FROM usuario WHERE (email = \'el_beto\' OR username = \'el_beto\') AND password = \'1234\''
+------------------------------------
+http://localhost:8000/login: [Thursday 10th of November 2016 09:24:37 AM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Thursday 10th of November 2016 09:24:37 AM: 	 'id'
+------------------------------------
+http://localhost:8000/login: [Thursday 10th of November 2016 09:24:37 AM: 	 'username'
+------------------------------------
+http://localhost:8000/login: [Thursday 10th of November 2016 09:24:37 AM: 	 'email'
+------------------------------------
+http://localhost:8000/login: [Thursday 10th of November 2016 09:24:37 AM: 	 'password'
+------------------------------------
+http://localhost:8000/login: [Thursday 10th of November 2016 09:24:37 AM: 	 'tipo_id'
+------------------------------------
+http://localhost:8000/login: [Thursday 10th of November 2016 09:24:37 AM: 	 'fb_id'
+------------------------------------
+http://localhost:8000/login: [Saturday 12th of November 2016 04:22:24 PM: 	 'SELECT * FROM usuario WHERE (email = \'diego.210@hotmail.es\' OR username = \'diego.210@hotmail.es\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Saturday 12th of November 2016 04:22:24 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Saturday 12th of November 2016 04:22:24 PM: 	 'id'
+------------------------------------
+http://localhost:8000/login: [Saturday 12th of November 2016 04:22:24 PM: 	 'username'
+------------------------------------
+http://localhost:8000/login: [Saturday 12th of November 2016 04:22:24 PM: 	 'email'
+------------------------------------
+http://localhost:8000/login: [Saturday 12th of November 2016 04:22:24 PM: 	 'password'
+------------------------------------
+http://localhost:8000/login: [Saturday 12th of November 2016 04:22:24 PM: 	 'tipo_id'
+------------------------------------
+http://localhost:8000/login: [Saturday 12th of November 2016 04:22:24 PM: 	 'fb_id'
+------------------------------------
+http://localhost:8000/register: [Sunday 13th of November 2016 09:15:51 AM: 	 array (
+  0 => 
+  User::__set_state(array(
+     'model_name' => 'usuario',
+     'db' => 'mocla',
+     'before_save' => NULL,
+     'private' => 
+    array (
+      0 => 'password',
+    ),
+     'attr' => 
+    array (
+      'id' => '1',
+      'username' => 'pepepistolas',
+      'email' => 'pepe@pistolas.com',
+      'password' => '0210',
+      'tipo_id' => '1',
+      'fb_id' => '""',
+    ),
+  )),
+)
+------------------------------------
+http://localhost:8000/register: [Sunday 13th of November 2016 09:16:38 AM: 	 array (
+  0 => 
+  User::__set_state(array(
+     'model_name' => 'usuario',
+     'db' => 'mocla',
+     'before_save' => NULL,
+     'private' => 
+    array (
+      0 => 'password',
+    ),
+     'attr' => 
+    array (
+      'id' => '1',
+      'username' => 'pepepistolas',
+      'email' => 'pepe@pistolas.com',
+      'password' => '0210',
+      'tipo_id' => '1',
+      'fb_id' => '""',
+    ),
+  )),
+)
+------------------------------------
+http://localhost:8000/register: [Sunday 13th of November 2016 09:17:11 AM: 	 array (
+  0 => 
+  User::__set_state(array(
+     'model_name' => 'usuario',
+     'db' => 'mocla',
+     'before_save' => NULL,
+     'private' => 
+    array (
+      0 => 'password',
+    ),
+     'attr' => 
+    array (
+      'id' => '1',
+      'username' => 'pepepistolas',
+      'email' => 'pepe@pistolas.com',
+      'password' => '0210',
+      'tipo_id' => '1',
+      'fb_id' => '""',
+    ),
+  )),
+)
+------------------------------------
+http://localhost:8000/register: [Sunday 13th of November 2016 09:17:38 AM: 	 array (
+  0 => 
+  User::__set_state(array(
+     'model_name' => 'usuario',
+     'db' => 'mocla',
+     'before_save' => NULL,
+     'private' => 
+    array (
+      0 => 'password',
+    ),
+     'attr' => 
+    array (
+      'id' => '1',
+      'username' => 'pepepistolas',
+      'email' => 'pepe@pistolas.com',
+      'password' => '0210',
+      'tipo_id' => '1',
+      'fb_id' => '""',
+    ),
+  )),
+)
+------------------------------------
+http://localhost:8000/register: [Sunday 13th of November 2016 09:20:16 AM: 	 array (
+  0 => 
+  User::__set_state(array(
+     'model_name' => 'usuario',
+     'db' => 'mocla',
+     'before_save' => NULL,
+     'private' => 
+    array (
+      0 => 'password',
+    ),
+     'attr' => 
+    array (
+      'id' => '1',
+      'username' => 'pepepistolas',
+      'email' => 'pepe@pistolas.com',
+      'password' => '0210',
+      'tipo_id' => '1',
+      'fb_id' => '""',
+    ),
+  )),
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:05:48 PM: 	 'SELECT * FROM usuario WHERE (email = \'diego.210@hotmail.es\' OR username = \'diego.210@hotmail.es\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:05:48 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:05:48 PM: 	 'id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:05:49 PM: 	 'username'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:05:49 PM: 	 'email'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:05:49 PM: 	 'password'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:05:49 PM: 	 'tipo_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:05:49 PM: 	 'fb_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:07:52 PM: 	 'SELECT * FROM usuario WHERE (email = \'a\' OR username = \'a\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:07:52 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:07:52 PM: 	 'id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:07:52 PM: 	 'username'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:07:52 PM: 	 'email'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:07:52 PM: 	 'password'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:07:52 PM: 	 'tipo_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:07:52 PM: 	 'fb_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:08:39 PM: 	 'SELECT * FROM usuario WHERE (email = \'a\' OR username = \'a\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:08:39 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:08:39 PM: 	 'id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:08:39 PM: 	 'username'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:08:39 PM: 	 'email'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:08:39 PM: 	 'password'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:08:39 PM: 	 'tipo_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:08:39 PM: 	 'fb_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:09:00 PM: 	 'SELECT * FROM usuario WHERE (email = \'a\' OR username = \'a\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:09:00 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:09:00 PM: 	 'id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:09:00 PM: 	 'username'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:09:00 PM: 	 'email'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:09:00 PM: 	 'password'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:09:00 PM: 	 'tipo_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:09:00 PM: 	 'fb_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:09:00 PM: 	 'INSERT INTO session(id,uid,ip,data) VALUES ("bEoXq70aBaT1AlmotvVS",2,"127.0.0.1","<b>Country</b>:<br><b>City</b>:<br><b>From</b>:.");'
+------------------------------------
+
+'sql'
+http://localhost:8000/login: [Sunday 13th of November 2016 09:12:05 PM: 	 'SELECT * FROM usuario WHERE (email = \'a\' OR username = \'a\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:12:05 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:12:05 PM: 	 'id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:12:05 PM: 	 'username'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:12:05 PM: 	 'email'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:12:05 PM: 	 'password'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:12:05 PM: 	 'tipo_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:12:05 PM: 	 'fb_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:12:06 PM: 	 'INSERT INTO session(id,uid,ip,data) VALUES ("dRFhmsvvpUfByEyZLz9n",2,"127.0.0.1","<b>Country</b>:<br><b>City</b>:<br><b>From</b>:.");'
+------------------------------------
+
+'sql'
+http://localhost:8000/login: [Sunday 13th of November 2016 09:12:59 PM: 	 'SELECT * FROM usuario WHERE (email = \'a\' OR username = \'a\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:12:59 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:12:59 PM: 	 'id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:12:59 PM: 	 'username'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:12:59 PM: 	 'email'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:12:59 PM: 	 'password'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:12:59 PM: 	 'tipo_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:12:59 PM: 	 'fb_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:13:01 PM: 	 'INSERT INTO session(id,uid,ip,data) VALUES ("J3okoKISgELtwqLSTgoj",2,"127.0.0.1","<b>Country</b>:<br><b>City</b>:<br><b>From</b>:Chrome 54 - Macintosh.");'
+------------------------------------
+
+'sql'
+http://localhost:8000/login: [Sunday 13th of November 2016 09:18:13 PM: 	 'SELECT * FROM usuario WHERE (email = \'a\' OR username = \'a\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:18:13 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:18:13 PM: 	 'id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:18:13 PM: 	 'username'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:18:13 PM: 	 'email'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:18:13 PM: 	 'password'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:18:13 PM: 	 'tipo_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:18:13 PM: 	 'fb_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:18:14 PM: 	 'INSERT INTO session(id,uid,ip,data) VALUES ("bDUKisJ31TqLXP5mAOeQ",2,"127.0.0.1","<b>Country</b>:<br><b>City</b>:<br><b>From</b>:Chrome 54 - Macintosh.");'
+------------------------------------
+
+'sql'
+http://localhost:8000/login: [Sunday 13th of November 2016 09:20:55 PM: 	 'SELECT * FROM usuario WHERE (email = \'a\' OR username = \'a\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:20:55 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:20:55 PM: 	 'id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:20:55 PM: 	 'username'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:20:55 PM: 	 'email'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:20:55 PM: 	 'password'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:20:55 PM: 	 'tipo_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:20:55 PM: 	 'fb_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:20:56 PM: 	 'INSERT INTO session(id,uid,ip,data) VALUES ("s0jYr4QkleExSyha11d3",2,"127.0.0.1","<b>Country</b>:<br><b>City</b>:<br><b>From</b>:Chrome 54 - Macintosh.");'
+------------------------------------
+
+'sql'
+http://localhost:8000/login: [Sunday 13th of November 2016 09:28:41 PM: 	 'SELECT * FROM usuario WHERE (email = \'a\' OR username = \'a\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:28:41 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:28:41 PM: 	 'id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:28:41 PM: 	 'username'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:28:41 PM: 	 'email'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:28:41 PM: 	 'password'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:28:41 PM: 	 'tipo_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:28:41 PM: 	 'fb_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:28:43 PM: 	 'INSERT INTO session(id,uid,ip,data) VALUES ("VEOStTe4ItUate9ViZgE",2,"127.0.0.1","<b>ip</b>:127.0.0.1<br><b>bogon</b>:1<br><b>From</b>:Chrome 54 - Macintosh.");'
+------------------------------------
+
+'sql'
+http://localhost:8000/login: [Sunday 13th of November 2016 09:32:04 PM: 	 'SELECT * FROM usuario WHERE (email = \'a\' OR username = \'a\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:32:04 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:32:04 PM: 	 'id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:32:04 PM: 	 'username'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:32:04 PM: 	 'email'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:32:04 PM: 	 'password'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:32:04 PM: 	 'tipo_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:32:04 PM: 	 'fb_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:32:04 PM: 	 'INSERT INTO session(id,uid,ip,data) VALUES ("eUb6tshutvyp9mhDgwHZ",2,"127.0.0.1","<b>ip</b>:127.0.0.1<br><b>bogon</b>:1<br><b>From</b>:Chrome 54 - Macintosh.");'
+------------------------------------
+
+'sql'
+http://localhost:8000/login: [Sunday 13th of November 2016 09:33:44 PM: 	 'SELECT * FROM usuario WHERE (email = \'a\' OR username = \'a\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:33:44 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:33:44 PM: 	 'id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:33:44 PM: 	 'username'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:33:44 PM: 	 'email'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:33:44 PM: 	 'password'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:33:44 PM: 	 'tipo_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:33:44 PM: 	 'fb_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:33:45 PM: 	 'INSERT INTO session(id,uid,ip,data) VALUES ("ZC9tQio8iEMxzXE2qVwU",2,"127.0.0.1","<b>ip</b>:127.0.0.1<br><b>bogon</b>:1<br><b>From</b>:Chrome 54 - Macintosh.");'
+------------------------------------
+
+'sql'
+http://localhost:8000/login: [Sunday 13th of November 2016 09:37:14 PM: 	 'SELECT * FROM usuario WHERE (email = \'a\' OR username = \'a\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:37:14 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:37:14 PM: 	 'id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:37:14 PM: 	 'username'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:37:14 PM: 	 'email'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:37:14 PM: 	 'password'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:37:14 PM: 	 'tipo_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:37:14 PM: 	 'fb_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:37:16 PM: 	 'INSERT INTO session(id,uid,ip,data) VALUES ("q5jAsBdI7VH6xRAnaZwt",2,"127.0.0.1","<b>ip</b>:127.0.0.1<br><b>bogon</b>:1<br><b>From</b>:Chrome 54 - Macintosh.");'
+------------------------------------
+
+'sql'
+http://localhost:8000/login: [Sunday 13th of November 2016 09:37:16 PM: 	 'SELECT * FROM usuario WHERE (email = \'a\' OR username = \'a\') AND password = \'0210\''
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:37:16 PM: 	 array (
+  0 => 'password',
+)
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:37:16 PM: 	 'id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:37:16 PM: 	 'username'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:37:16 PM: 	 'email'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:37:16 PM: 	 'password'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:37:16 PM: 	 'tipo_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:37:16 PM: 	 'fb_id'
+------------------------------------
+http://localhost:8000/login: [Sunday 13th of November 2016 09:37:16 PM: 	 'INSERT INTO session(id,uid,ip,data) VALUES ("Ej0dhEfHAMC0RVAjwO2E",2,"127.0.0.1","<b>ip</b>:127.0.0.1<br><b>bogon</b>:1<br><b>From</b>:Chrome 54 - Macintosh.");'
+------------------------------------
+
+'sql'

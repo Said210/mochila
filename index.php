@@ -1,10 +1,10 @@
 <?php
 
 error_reporting(E_ALL);
-ini_set("display_errors", 1);   
+ini_set("display_errors", 1);
 
-require 'vendor/altorouter/altorouter/AltoRouter.php';
-require 'php/controller/autoload.php';
+require_once 'vendor/altorouter/altorouter/AltoRouter.php';
+require_once 'php/controller/autoload.php';
 
 $router = new AltoRouter();
 
@@ -20,10 +20,10 @@ $router->map( 'GET', '/', function() {
 * login routes
 */
 $router->map( 'GET', '/login', function() {
-	if (isset($_SESSION["user"])) {
+	if (logged()) {
 		header("Location: /");
 	}else{
-		$props = [
+		$locals = [
 			"view" => 'views/session/login.php',
 			'title' => "Login @ Mocla"
 			];
@@ -43,29 +43,45 @@ $router->map( 'DELETE|GET', '/logout', function() {
 * Sign in
 */
 $router->map( 'GET', '/signin', function() {
-	if (isset($_SESSION["user"])) {
+	if (logged()) {
 		header("Location: /");
 	}else{
-		$props = [
+		$locals = [
 			"view" => 'views/session/register.php',
 			'title' => "Signin @ Mocla"
 			];
 		require "views/templates/template.php";
 	}
-}, 'Sign In');
+}, 'SignIn');
 
 $router->map( 'POST', '/register', function() {
 	UserController::register();
 }, 'register');
 
 
+
+$router->map("GET", "/me", function(){
+	$current_user = $_SESSION["user"]->attr;
+	$locals = [
+		"view" => 'views/user/profile.php',
+		"title" => $current_user["username"]." @ mocla"
+	];
+	require "views/templates/template.php";
+	
+});
+
 $match = $router->match();  
 if($match){
+
 	//					Closure			PARAMS
     call_user_func($match['target'], $match['params']);
 }else {
 	// no route was matched
 	header( $_SERVER["SERVER_PROTOCOL"] . ' 404 Not Found');
+}
+
+function render_template($template = "template.php", $locals=[]){
+	require "views/templates/".$template;
 }
 
 ?>

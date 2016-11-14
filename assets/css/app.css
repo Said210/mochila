@@ -247,4 +247,29 @@ input[type=text], input[type=password], input[type=email] {
   border: 1px solid #333;
   outline: none; }
 
+.profile-content-row {
+  width: 100vw;
+  height: 50vh;
+  background-size: cover;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  background-position: 50% 50%; }
+  .profile-content-row .mocla {
+    width: auto;
+    height: 30vh;
+    max-width: 30vw;
+    margin-top: 10vh;
+    float: left; }
+  .profile-content-row .data {
+    color: #FFF;
+    font-weight: bolder;
+    font-family: "Raleway", helvetica, sans-serif !important;
+    top: 10vh;
+    height: 30vh;
+    background-color: yellow;
+    position: absolute;
+    left: 35vw; }
+    .profile-content-row .data .title {
+      font-size: 4rem; }
+
 /*# sourceMappingURL=app.css.map */
