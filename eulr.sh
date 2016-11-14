@@ -20,21 +20,24 @@ case "$1" in
 
     commit )
         git add .
-        git commit -m $2
+        git commit -m "$2"
         git push origin master
     ;;
 
     g )
+        name=$2
+        name="$(tr '[:lower:]' '[:upper:]' <<< ${name:0:1})${name:1}"
+        cap="$(tr '[:lower:]' '[:upper:]' <<< ${name:0})"
         echo "<?php
     require_once 'oom/OOM.php';
 
-    class $2 extends OOM{
+    class $name extends OOM{
         function __construct(){
             \$this->model_name = \"$2\";
             \$this->private = [];
         }
     }
-    \$$2 = new $2(); // Optional, but cool.
+    \$$cap = new $name(); // Optional, but cool.
     ?>" > php/model/$2.php
 
         echo "<?php
@@ -43,9 +46,9 @@ case "$1" in
     require_once('errors.php');
     session_start();
     /**
-    * $2Controller class
+    * $nameController class
     */
-    class $2Controller{}?>" > php/controller/$2_controller.php
+    class $nameController{}?>" > php/controller/$2_controller.php
 
         mkdir views/$2
 
